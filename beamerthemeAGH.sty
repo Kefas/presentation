@@ -31,12 +31,14 @@
 
 \setbeamercolor{frametitle}{fg=black}
 \setbeamercolor{author in head/foot}{fg=white}
+\setbeamercolor{promotor in head/foot}{fg=white}
 \setbeamercolor{page number in head/foot}{fg=white}
 \setbeamercolor{title in head/foot}{fg=white}
 \setbeamercolor{date in head/foot}{fg=white}
 \setbeamercolor{title}{fg=black}
 \setbeamerfont{title}{size=\Large,shape=\bfseries}
 \setbeamerfont{author}{size=\small,shape=\bfseries}
+\setbeamerfont{promotor}{size=\small,shape=\bfseries}
 \setbeamerfont{institute}{size=\scriptsize,shape=\bfseries}
 \setbeamerfont{date}{size=\scriptsize,shape=\bfseries}
 
@@ -62,17 +64,17 @@
     \vskip1em\par
     \hspace*{2.35cm}
     \begin{beamercolorbox}[sep=8pt,#1]{author}
-      \usebeamerfont{author}\insertauthor
+      \usebeamerfont{author}\insertauthor\\
+      \vspace{0.3cm}
+      Promotor:\\
+      dr inż. Paweł Skrzyński
     \end{beamercolorbox}
-    \vskip1em\par
+    
     \hspace*{2.35cm}
     \begin{beamercolorbox}[sep=8pt,#1]{institute}
-      \usebeamerfont{institute}\insertinstitute
-    \end{beamercolorbox}
-    \hspace*{2.35cm}
-    \begin{beamercolorbox}[sep=8pt,#1]{date}
+      \usebeamerfont{institute}\insertinstitute\\
       \usebeamerfont{date}\insertdate
-    \end{beamercolorbox}\vskip0.5em
+    \end{beamercolorbox}
     {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
   \vfill
 }
