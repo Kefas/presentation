@@ -1,0 +1,35 @@
+	Chciałbym przedstawić państwu swoja pracę inżynierską której tematem jest stworzenie aplikacji internetowej
+umożliwiającej wyszukiwanie ofert wynajmu oraz sprzedaży mieszkań i nieruchomości. W dzisiejszych czasach rynek
+nieruchomości w Polsce zaczął się bardzo szybko rozwijać, zwłaszcza w dużych miastach. Przyczyną takiego stanu jest 
+zapewne duża ilość studentów w ośrodkach akedmickich, które znajdują się zazwyczaj w wielkich ośrodkach miejskich.
+Jako student wiele czasu poświęciłem na szukanie odpowiedniej oferty wynajmu mieszkania i dogłębnie poznałem dobre i złe
+strony serwisów udostępniających ogłoszenia. Mając na uwadze problemy ze znalezieniem idealnej oferty w danej lokalizacji,
+w mojej głowie narodził się pomysł by stworzyć aplikację internetową która nie tylko będzie umożliwiała wyszukanie
+ofert, lecz również będzie proponowała oferty użytkownikowi bazując na jego preferencjach.
+
+Celem pracy było stworzenie aplikacji internetowej która umożliwi znalezienie oferty wynajęcia lub kupna mieszkania, domu 
+bądź też pokoju. Tworzona aplikacja ma również umożliwiać zamieszczenie oferty mieszkania. Moim głównym zadaniem będzie 
+zaimplementowanie zupełnie nowego sposobu pokazywania ofert, ale do tego przejdę za chwilę. Jednym z celów jest również
+stworzenie interfejsu przyjaznego użytkownikowi, który byłby intuicyjny i prosty w użyciu zachowując przy tym wszystkie 
+najważniejsze funkcjonalności. Dużą wagę przywiązałem również do zabezpiecznia dostępu do aplikacji przed osobom do tego
+niepowołanymi.
+
+Do zaimplementowania aplikacji użyłem frameworka Ruby on Rails. Jest to framework korzystający z języka ruby powstały w 
+roku 2005. Nie jest to zatem najnowsza technologia lecz cały czas prężnie rozwijana. Ruby natomiast powstał w roku 1995 i jest językiem interpretowanym, w pełni obiektowym językiem z dynamicznym typowaniem. Jest to framework wykorzystywany 
+głównie do tworzenia niezbyt wielkich serwisów internetowych ze względu na gorszą wydajność od Javy czy C#. Jego dosyć
+ dobra wydajność, skalowalność oraz zwięzłość kodu rozpowszechniła jednak Ruby on Rails w sektorze małych i średnich 
+ aplikacji. W Ruby on Rails duży nacisk jest kładziony na szybkość, łatwość i przyjemność pisania kodu, oraz na regułę 
+"Don't repeat yourself". Istnieje również reguła Convention over Configuration, polegająca na sprowadzeniu do minimum 
+niezbędnej konfiguracji przez zastępowanie jej gotowymi, domyślnymi, zalecanymi wzorcami. Ruby on Rails jest udostępniany 
+na zasadzie open source.
+
+Przy implementacji widoków zdecydowałem się skorzystać z map dostarczanych przez Google. Jest to rozwiązanie z którego 
+można korzystać bezpłatnie pod warunkiem, że strona na której są wykorzystywane mapy nie pobiera opłat od użytkowników.
+Żeby skorzystać z API należy dołączyć do strony internetowej skrypt udostępniany przez Google.
+Google Maps API dostarcza wiele udogodnień takich jak wyświetlanie znaczników na mapie, informacji o lokalizacji. 
+Istnieje również możliwość wyświetlania aktualnego natężenia ruchu. Funkcjonalności które będę wykorzystywał w swojej 
+aplikacji to możliwość manipulacji mapą, dodawanie znaczników oraz zaznaczanie obszaru na mapie. Dużą zaletą korzystania
+ z tych map jest jej popularność w sieci, użytkownicy są przyzwyczajeni do wyglądu oraz obsługi tych map przez co mój
+serwis będzie od samego początku wyglądał znajomo a poruszanie się w nim będzie intuicyjne.
+
+
