@@ -8,8 +8,8 @@ w mojej głowie narodził się pomysł by stworzyć aplikację internetową któ
 ofert, lecz również będzie proponowała oferty użytkownikowi bazując na jego preferencjach.
 
 Celem pracy było stworzenie aplikacji internetowej która umożliwi znalezienie oferty wynajęcia lub kupna mieszkania, domu 
-bądź też pokoju. Tworzona aplikacja ma również umożliwiać zamieszczenie oferty mieszkania. Moim głównym zadaniem będzie 
-zaimplementowanie zupełnie nowego sposobu pokazywania ofert, ale do tego przejdę za chwilę. Jednym z celów jest również
+bądź też pokoju. Tworzona aplikacja ma również umożliwiać zamieszczenie oferty wynajmu lub sprzedaży. Moim głównym zadaniem będzie 
+zaimplementowanie zupełnie nowego sposobu pokazywania ofert oraz personalizowanie ofert dla użytkownika. Jednym z celów jest również
 stworzenie interfejsu przyjaznego użytkownikowi, który byłby intuicyjny i prosty w użyciu zachowując przy tym wszystkie 
 najważniejsze funkcjonalności. Dużą wagę przywiązałem również do zabezpiecznia dostępu do aplikacji przed osobom do tego
 niepowołanymi.
